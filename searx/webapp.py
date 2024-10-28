@@ -134,7 +134,7 @@ from searx.search.checker import get_result as checker_get_result
 logger = logger.getChild('webapp')
 
 # check secret_key
-if not searx_debug and settings['server']['secret_key'] == 'ultrasecretkey':
+if not searx_debug and settings['server']['secret_key'] == 'ultrasecretkey1':
     logger.error('server.secret_key is not changed. Please use something else instead of ultrasecretkey.')
     sys.exit(1)
 
