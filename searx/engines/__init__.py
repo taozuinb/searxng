@@ -38,7 +38,7 @@ ENGINE_DEFAULT_ARGS = {
     "shortcut": "-",
     "timeout": settings["outgoing"]["request_timeout"],
     "display_error_messages": True,
-    "disabled": False,
+    "disabled": True,
     "inactive": False,
     "about": {},
     "using_tor_proxy": False,

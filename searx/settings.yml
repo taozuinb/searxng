@@ -870,12 +870,14 @@ engines:
   - name: google
     engine: google
     shortcut: go
+    disabled: false
     # additional_tests:
     #   android: *test_android
 
   - name: google images
     engine: google_images
     shortcut: goi
+    disabled: false
     # additional_tests:
     #   android: *test_android
     #   dali:
@@ -888,32 +890,35 @@ engines:
   - name: google news
     engine: google_news
     shortcut: gon
+    disabled: false
     # additional_tests:
     #   android: *test_android
 
   - name: google videos
     engine: google_videos
     shortcut: gov
+    disabled: false
     # additional_tests:
     #   android: *test_android
 
   - name: google scholar
     engine: google_scholar
     shortcut: gos
+    disabled: false
 
   - name: google play apps
     engine: google_play
     categories: [files, apps]
     shortcut: gpa
     play_categ: apps
-    disabled: true
+    disabled: false
 
   - name: google play movies
     engine: google_play
     categories: videos
     shortcut: gpm
     play_categ: movies
-    disabled: true
+    disabled: false
 
   - name: material icons
     engine: material_icons
